@@ -40,19 +40,17 @@ body {
     }
 }
 
-main {
+.main {
     display: flex;
-    gap: 20px;
-    padding: 20px;
     color: #000000;
 }
 
-aside {
+.aside {
     background-color: #ffffff;
     padding: 20px;
 }
 
-article {
+.article {
     background-color: #ffffff;
     padding: 20px;
     flex-grow: 3;
