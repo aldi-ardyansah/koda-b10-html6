@@ -22,6 +22,10 @@ body {
         text-decoration: none;
         color: #ffffff;
     }
+
+    .aside {
+        display: none;
+    }
 }
 
 @media (width >= 768px) {
