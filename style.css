@@ -5,15 +5,16 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #c3c7cb;
 }
 
 @media (width < 768px) {
     .nav {
-        height: auto;
-        width: 100%;
-        padding: 20px 40px 20px 40px;
-        background-color: #000000;
-        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        background-color: #18191b;
+        padding: 20px;
+        gap: 20px;
         text-align: center;
     }
 
@@ -21,55 +22,42 @@ body {
         text-decoration: none;
         color: #ffffff;
     }
-
-    .nav-1 {
-        margin: 0 0 40px 0;
-    }
-
-    .nav-2 {
-        margin: 0 0 40px 0;
-    }
-
-    .nav-3 {
-        margin: 0 0 40px 0;
-    }
-
-    .nav-4 {
-        margin: 0 0 0 0;
-    }
 }
 
 @media (width >= 768px) {
     .nav {
-        height: auto;
-        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        background-color: #18191b;
         padding: 20px 40px 20px 40px;
-        background-color: #000000;
-        color: #ffffff;
+        gap: 20px;
     }
 
     .nav a {
         text-decoration: none;
         color: #ffffff;
     }
+}
 
-    .nav-1, .nav-2, .nav-3, .nav-4 {
-        display: inline-block;
-    }
+main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    color: #000000;
+}
 
-    .nav-1 {
-        margin: 0 40px 0 0;
-    }
+aside {
+    background-color: #ffffff;
+    padding: 20px;
+}
 
-    .nav-2 {
-        margin: 0 40px 0 0;
-    }
+article {
+    background-color: #ffffff;
+    padding: 20px;
+    flex-grow: 3;
+}
 
-    .nav-3 {
-        margin: 0 40px 0 0;
-    }
-
-    .nav-4 {
-        margin: 0 0 0 0;
-    }
+.text-center {
+    text-align: center;
 }
