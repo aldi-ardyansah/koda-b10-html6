@@ -20,7 +20,7 @@ body {
 
     .nav a {
         text-decoration: none;
-        color: #ffffff;
+        color: #FFFFFF;
     }
 
     .aside {
@@ -40,7 +40,7 @@ body {
 
     .nav a {
         text-decoration: none;
-        color: #ffffff;
+        color: #FFFFFF;
     }
 }
 
@@ -50,12 +50,12 @@ body {
 }
 
 .aside {
-    background-color: #ffffff;
+    background-color: #E7E7E7;
     padding: 20px;
 }
 
 .article {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     padding: 20px;
     flex-grow: 3;
 }
